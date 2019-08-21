@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "CommonJS",
+      "outDir": "build/"
+  },
+  "include": [
+      "src/recursion.ts"
+  ],
+  "exclude": [
+      "node_modules",
+  ]
+}
