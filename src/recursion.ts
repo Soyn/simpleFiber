@@ -1,4 +1,4 @@
-import { a1 } from './fiber';
+import { a1 } from './elements';
 
 const doWork = function (o) {
     console.log(o.name);
