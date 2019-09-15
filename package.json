@@ -8,6 +8,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node ./build/bundle.js"
+    "start": "node ./build/fiber.js"
   }
 }

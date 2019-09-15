@@ -1,3 +1,4 @@
+import { a1 } from './elements'
 // interface defination
 interface IRender {
   (): Array<IElement>|[]
@@ -40,7 +41,7 @@ const doWork = (node: FiberNode): FiberNode => {
   return link(node, children);
 }
 
-// 
+
 const performWork = (node: FiberNode) => {
   let current = node;
   let root = node;
@@ -62,3 +63,4 @@ const performWork = (node: FiberNode) => {
     current = current.slibing;
   }
 }
+performWork(new FiberNode(a1));
